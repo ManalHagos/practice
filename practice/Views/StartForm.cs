@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace practice
+namespace practice.Views
 {
-    public partial class Form1 : Form
+    public partial class StartForm : practice.Views.MasterForm
     {
-        public Form1()
+        public StartForm()
         {
             InitializeComponent();
         }
